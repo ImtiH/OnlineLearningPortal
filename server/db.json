@@ -1,0 +1,267 @@
+{
+  "users": [
+    {
+      "email": "test1@gmailcom",
+      "password": "$2a$10$KVfcFBjpy9K1GcfD2ft9yOCnBeyOMN6GNLTOGJdHfkbfRYBfazJ1K",
+      "name": "Imtiaz Anik",
+      "role": "student",
+      "id": 8
+    },
+    {
+      "email": "writetoimti@gmail.com",
+      "password": "$2a$10$xwpX8bXsS695JspA5PG85.rNzO4fjBhym/IBqutgXbDA31dCxGwA.",
+      "name": "Imtiaz Anik",
+      "role": "student",
+      "id": 9
+    }
+  ],
+  "videos": [
+    {
+      "id": 3,
+      "title": "Learn Debounce And Throttle",
+      "description": "Debounce and throttle are two easy techniques to implement that will drastically increase the performance of any site that has heavy API usage. In this video I show you how to implement both techniques, compare the pros/cons of each, and give real world examples of when to use each technique.",
+      "url": "https://www.youtube.com/embed/cjIswDCKgu0",
+      "views": "146.5K",
+      "duration": "16:27",
+      "createdAt": "March 2 2022: 2:14:00 PM"
+    },
+    {
+      "id": 4,
+      "title": "Null and Undefined Difference",
+      "description": "Learn about the difference between null and undefined in JavaScript.",
+      "url": "https://www.youtube.com/embed/VwaqJy_clnc",
+      "views": "56.7K",
+      "duration": "3:44",
+      "createdAt": "April 21 2017: 4:39:00 PM"
+    },
+    {
+      "id": 5,
+      "title": "JavaScript Event Loop: How it Works",
+      "description": "One of the most important concepts to learn in JavaScript! The Event Loop is core to how JavaScript handles asynchronous code. In this video, we'll break down the call stack, event loop, and event queue to show you how JavaScript works under the hood.",
+      "url": "https://www.youtube.com/embed/lqLSNG_79lI",
+      "views": "39:4K",
+      "duration": "7:19",
+      "createdAt": "Nov 29 2022: 1:14:00 AM"
+    }
+  ],
+  "assignments": [
+    {
+      "id": 1,
+      "title": "Assignment 1 - Implement Debounce Function",
+      "video_id": 1,
+      "video_title": "Debounce Function in JavaScript - JavaScript Job Interview question",
+      "totalMark": 100
+    },
+    {
+      "id": 2,
+      "title": "Assignment 2 - Implement Best Practices",
+      "video_id": 2,
+      "video_title": "#2 JavaScript Tips and Tricks - JavaScript Job Interview Questions",
+      "totalMark": 100
+    },
+    {
+      "id": 3,
+      "title": "Assignment 1 - Implement Debounce Function",
+      "video_id": 3,
+      "video_title": "Learn Debounce And Throttle",
+      "totalMark": 100
+    },
+    {
+      "id": 4,
+      "title": "Assignment 1 - Implement Debounce Function",
+      "video_id": 4,
+      "video_title": "Learn Debounce And Throttle",
+      "totalMark": 100
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 2,
+      "question": "Which of the following is an example of a situation where you would use the Debounce function?",
+      "video_id": 1,
+      "video_title": "Debounce Function in JavaScript - JavaScript Job Interview question",
+      "options": [
+        {
+          "id": "1",
+          "option": "A search bar where the results are displayed as you type.",
+          "isCorrect": false
+        },
+        {
+          "id": "2",
+          "option": "A button that performs an action when clicked.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "option": "An animation that plays when a user hovers over an element.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "option": "All of the above.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is the difference between null and undefined in JavaScript?",
+      "video_id": 2,
+      "video_title": "#2 JavaScript Tips and Tricks - JavaScript Job Interview Questions",
+      "options": [
+        {
+          "id": 1,
+          "option": "null represents the intentional absence of any object value.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "option": "undefined represents the uninitialized value of a variable or property.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "option": "Same thing",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "option": "No Difference",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is an example of a situation where you would use the Debounce function?",
+      "video_id": 3,
+      "video_title": "Learn Debounce And Throttle",
+      "options": [
+        {
+          "id": "1",
+          "option": "A search bar where the results are displayed as you type.",
+          "isCorrect": false
+        },
+        {
+          "id": "2",
+          "option": "A button that performs an action when clicked.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "option": "An animation that plays when a user hovers over an element.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "option": "All of the above.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the difference between null and undefined in JavaScript?",
+      "video_id": 4,
+      "video_title": "Null and Undefined Difference",
+      "options": [
+        {
+          "id": 1,
+          "option": "null represents the intentional absence of any object value.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "option": "undefined represents the uninitialized value of a variable or property.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "option": "Same thing",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "option": "No Difference",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "assignmentMark": [
+    {
+      "id": 1,
+      "student_id": 2,
+      "student_name": "Saad Hasan",
+      "assignment_id": 1,
+      "title": "Assignment 1 - Implement Debounce Function",
+      "createdAt": "2021-01-15T15:17:01.727Z",
+      "totalMark": 100,
+      "mark": 0,
+      "repo_link": "https://github.com/Learn-with-Sumit/assignment-1",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "student_id": 2,
+      "student_name": "Saad Hasan",
+      "assignment_id": 1,
+      "title": "Assignment 2 - Implement Best Practices",
+      "createdAt": "2021-01-15T15:17:01.727Z",
+      "totalMark": 100,
+      "mark": 100,
+      "repo_link": "https://github.com/Learn-with-Sumit/assignment-1",
+      "status": "published"
+    },
+    {
+      "id": 2,
+      "student_id": 2,
+      "student_name": "Akash Ahmed",
+      "assignment_id": 1,
+      "title": "Assignment 2 - Implement Best Practices",
+      "createdAt": "2021-01-15T15:17:01.727Z",
+      "totalMark": 100,
+      "mark": 50,
+      "repo_link": "https://github.com/Learn-with-Sumit/assignment-1",
+      "status": "published"
+    },
+    {
+      "student_id": 8,
+      "student_name": "Imtiaz Anik",
+      "assignment_id": 3,
+      "title": "Assignment 1 - Implement Debounce Function",
+      "createdAt": "2023-09-22T00:14:11.456Z",
+      "totalMark": 100,
+      "mark": 0,
+      "repo_link": "https://www.youtube.com/watch?v=VwaqJy_clnc&ab_channel=freeCodeCamp.org",
+      "status": "pending",
+      "id": 3
+    }
+  ],
+  "quizMark": [
+    {
+      "id": 1,
+      "student_id": 2,
+      "student_name": "Saad Hasan",
+      "video_id": 1,
+      "video_title": "Debounce Function in JavaScript - JavaScript Job Interview question",
+      "totalQuiz": 2,
+      "totalCorrect": 1,
+      "totalWrong": 1,
+      "totalMark": 10,
+      "mark": 5
+    },
+    {
+      "student_id": 8,
+      "student_name": "Imtiaz Anik",
+      "video_id": 3,
+      "video_title": "Learn Debounce And Throttle",
+      "totalQuiz": 1,
+      "totalCorrect": 0,
+      "totalWrong": 1,
+      "totalMark": 5,
+      "mark": 0,
+      "id": 2
+    }
+  ]
+}
